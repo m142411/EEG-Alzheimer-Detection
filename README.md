@@ -116,11 +116,11 @@ The server runs on `http://localhost:8000` and the frontend on `http://localhost
 
 ![Training History](assets/training_history.png)
 
-### ROC Curve
+### ROC Curve & Confusion Matrix
 
-![ROC Curve](assets/roc_curve.png) | <img width="394" alt="Dataset Overview" src="https://github.com/user-attachments/assets/8d3c4ef6-4e29-46ec-912b-a6facffc5318" />
+![ROC Curve](assets/roc_curve.png) | ![Confusion Matrix](assets/confusion_matrix.png)
 :---: | :---:
-**ROC Curve (AUC = 0.983)** | **Dataset Overview**
+**ROC Curve (AUC = 0.983)** | **Confusion Matrix**
 
 The dataset is sourced from [OpenNeuro ds004504](https://openneuro.org/datasets/ds004504), consisting of resting-state EEG recordings from Alzheimer's patients and healthy controls.
 
