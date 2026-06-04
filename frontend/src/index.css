@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-slate-900 text-slate-100 antialiased;
+}
+
+.glass-card {
+  @apply bg-slate-800/50 backdrop-blur-md border border-slate-700/50 rounded-xl shadow-xl;
+}
+
+.neon-text-blue {
+  text-shadow: 0 0 10px rgba(59, 130, 246, 0.5);
+}
+
+.neon-text-green {
+  text-shadow: 0 0 10px rgba(16, 185, 129, 0.5);
+}
+
+.neon-text-red {
+  text-shadow: 0 0 10px rgba(239, 68, 68, 0.5);
+}

@@ -1,0 +1,23 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+*.log
+.env
+
+# Data files
+data/raw/
+data/processed/
+data/new_subjects/
+*.zip
+*.set
+*.fdt
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# IDE
+.idea/
+.vscode/
