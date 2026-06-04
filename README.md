@@ -21,6 +21,10 @@ An end-to-end deep learning system for classifying Alzheimer's Disease (AD) vs H
 - ICA artifact removal (EOG detection / variance threshold)
 - Fixed-length epoching (2s windows, 50% overlap)
 
+| Raw EEG Signal (Before) | Cleaned EEG Signal (After) |
+|:---:|:---:|
+| ![Raw EEG](assets/eeg_raw_signal.png) | ![Cleaned EEG](assets/eeg_cleaned_signal.png) |
+
 ### 2. Model Training (`notebooks/2_training_pipeline1.ipynb`)
 - Subject-level stratified 70/15/15 train/val/test split (no data leakage)
 - Z-score normalization computed on training set only
