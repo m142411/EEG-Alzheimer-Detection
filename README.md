@@ -108,6 +108,16 @@ The server runs on `http://localhost:8000` and the frontend on `http://localhost
 | Model Size | ~90 KB |
 | Train/Val/Test Subjects | 21 / 5 / 4 |
 
+### Training Performance
+
+![Training History](assets/training_history.png)
+
+### ROC Curve & Confusion Matrix
+
+![ROC Curve](assets/roc_curve.png) | ![Confusion Matrix](assets/confusion_matrix.png)
+:---: | :---:
+**ROC Curve (AUC = 0.983)** | **Confusion Matrix**
+
 ## Dataset
 
 The dataset is sourced from [OpenNeuro ds004504](https://openneuro.org/datasets/ds004504), consisting of resting-state EEG recordings from Alzheimer's patients and healthy controls.
